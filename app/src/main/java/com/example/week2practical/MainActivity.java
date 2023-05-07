@@ -24,12 +24,12 @@ public class MainActivity extends AppCompatActivity {
                 if(User1.followed == true){
                     User1.followed = false;
                     followButton.setText("Follow");
-                    Toast.makeText(getApplicationContext(), "Unfollowed", Toast.LENGTH_SHORT).show();
+
                 }
                 else if(User1.followed == false){
                     User1.followed = true;
                     followButton.setText("Unfollow");
-                    Toast.makeText(getApplicationContext(), "Followed", Toast.LENGTH_SHORT).show();
+
                 }
 
             }
